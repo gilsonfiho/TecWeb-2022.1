@@ -1,0 +1,23 @@
+html{
+  background-color: white;
+}
+head{
+  background-color: white;
+}
+
+body{
+  background-color: darkkhaki;
+  color: red;
+}
+
+.class1{
+  color: inherit;
+}
+
+.class2{
+  color: initial;
+}
+
+.class3{
+  color: unset;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Q1</title>
+    </head>
+    <body>
+      <input type = "text" id = "a">
+      <p id="res">Resposta:</p>
+      <button type = "button" onclick="retornaDiv3()">enviar</button>
+      <script>
+          var a = parseInt(document.getElementById("a").value);
+          function retornaDiv3(){
+            if (a % 3 == 0){
+                document.getElementById("res").innerHTML = "Resposta: True";
+                console.log("true");
+            }
+            else{
+                document.getElementById("res").innerHTML = "Resposta: False";
+                console.log("false");
+            }
+          }
+      </script>
+    </body>
+</html>

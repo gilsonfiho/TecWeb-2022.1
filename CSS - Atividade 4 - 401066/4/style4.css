@@ -1,0 +1,17 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  column-gap: 20px;
+}
+/* Flex Item */
+.item {
+	margin: 10px;
+	background: rgb(48, 48, 224);
+	text-align: center;
+	font-size: 1.5em;
+  width: 200;
+  height: 120;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Q2</title>
+    </head>
+    <body>
+      <input type = "text" id = "salar">
+      <input type = "text" id = "plano">
+      <p id="res">Resposta:</p>
+      <button type = "button" onclick="Salario()">enviar</button>
+      <script>
+        function Salario(){
+            var salar = parseInt(document.getElementById("salar").value);
+            var plano = parseInt(document.getElementById("plano").value);
+            if(plano == 1){
+              salar = salar + (salar*0.10);
+              document.getElementById("res").innerHTML = "Resposta:" + salar;
+            }
+            if(plano == 2){
+              salar = salar + (salar*0.15);
+              document.getElementById("res").innerHTML = "Resposta:" + salar;
+            }
+            if(plano == 3){
+              salar = salar + (salar*0.20);
+              document.getElementById("res").innerHTML = "Resposta:"+ salar;
+            } 
+        }
+        </script>
+    </body>
+</html>

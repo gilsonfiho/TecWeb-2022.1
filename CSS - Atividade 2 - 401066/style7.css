@@ -1,0 +1,18 @@
+div{
+  position: fixed;
+  height: 100px;
+  width: 100px;
+}
+
+#menu{
+  position:absolute;
+  left:auto;
+  height: 10%;
+}
+
+#corpo{
+  height: 50%;
+  width: 50%;
+  position:absolute;
+  left:auto;
+}

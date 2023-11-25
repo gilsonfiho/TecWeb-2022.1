@@ -1,0 +1,29 @@
+span{
+  color: red;
+}
+
+p{
+  color: blue;
+}
+
+ul{
+  color: blueviolet;
+}
+
+ol{
+  color: darkorange;
+}
+
+div{
+  background-color: powderblue;
+  padding: 35px;
+  margin: 35px;
+  padding-bottom: 35px;
+  border-top: 35px;
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 100;
+
+}
+

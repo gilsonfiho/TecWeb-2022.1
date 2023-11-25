@@ -1,0 +1,56 @@
+body{
+  background-color: white;
+}
+.estrutura{
+  background-color: white;
+  height:300px;
+  width:300px;
+  border-radius:10px;
+  position:relative;
+  top:80px;
+  left:40%;
+  border:black 2px solid;
+}
+.tela{
+  background-color:#222;
+  width:265px;
+  position:relative;
+  left:17px;
+  top:20px;
+  height:40px;
+}
+.tela input{
+  position: relative;
+  width: 257px;
+  left: 2px;
+  top: 2px;
+  height: 35px;
+  color: black;
+  background-color: #bccd95;
+  font-size: 21px;
+  text-align: right;
+  font-weight: bolder;
+}
+.teclas{
+  position: relative;
+  top: 30px;
+}
+.botao{
+  font-weight: bolder;
+  font-size: 20px;
+  width: 43px;
+  height: 37px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 23px;
+  cursor: pointer;
+  border-top: 2px solid transparent;
+  background-color: rgba(231, 214, 214, 0.904), 0.904);
+  border-bottom:black 2px solid;
+}
+.botao.operacoes{
+  color: black;
+}
+.botao.numero{
+  color: black;
+}

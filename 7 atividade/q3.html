@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Q3</title>
+    </head>
+    <body>
+      <input type = "text" id = "valor">
+      <p id="res">Resposta:</p>
+      <button type = "button" onclick="notas()">enviar</button>
+      <script>
+          function notas(){
+            var valor = parseInt(document.getElementById("valor").value);
+            var nota100 = 0;
+            var nota50 = 0;
+            var nota10 = 0;
+            var nota5 = 0;
+            var nota1 = 0;
+
+
+            while(valor > 100){ 
+                notas100 = notas100 + 1;
+                valor = valor - 100;
+            }
+
+            while(valor > 50){ 
+                notas50 = notas50 + 1;
+                valor = valor - 50;
+            }
+
+            while(valor > 10){ 
+                notas10 = notas10 + 1;
+                valor = valor - 10;
+            }
+
+            while(valor > 5){ 
+                notas5 = notas5 + 1;
+                valor = valor - 5;
+            }
+
+            while(valor > 1){ 
+                notas1 = notas1 + 1;
+                valor = valor - 1;
+            }
+            document.getElementById("res").innerHTML = "Resposta:" + notas100 + "nota(s) de R$ 100." + notas50 + "nota(s) de R$ 50. " + notas50 + "nota(s) de R$ 50. " + notas50 + "nota(s) de R$ 50. " + notas1 + "nota(s) de R$ 1. ";
+          }
+      </script>
+    </body>
+</html>

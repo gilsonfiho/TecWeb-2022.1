@@ -1,0 +1,76 @@
+<html>
+
+<head>
+  <meta charset="utf-8;" />
+  <title>
+    Cadastro de uma ordem de serviço
+  </title>
+</head>
+<form action="" method="POST" ENCTYPE="multipart/form-data">
+
+  <body>
+    <h1>Assistência Técnica de Celular</h1>
+    <h2>Cadastro de uma ordem de serviço:</h2>
+    <table>
+      <tr>
+        <p>Dados do cliente:</p>
+        <td>Nome do cliente:</td>
+        <td><input type="text" name="nome" size="50" value="digite seu nome aqui"> <br /></td>
+      </tr>
+      <tr>
+        <td>CPF do cliente:</td>
+        <td><input type="text" name="cpf" size="50"> <br /></td>
+      </tr>
+      <tr>
+        <td>Rua:</td>
+        <td><input type="text" name="endereco" size="50">
+          <br />
+        </td>
+      </tr>
+      <tr>
+        <td>Número da rua:</td>
+        <td><input type="text" name="rua" size="5">
+          <br />
+        </td>
+      </tr>
+      <tr>
+        <td>CEP:</td>
+        <td><input type="text" name="cep" size="20">
+        <br/>
+        </td>
+      </tr>
+      <tr>
+        <td>Modelo do celular:</td>
+        <td><select id="modelo" name="modelo">
+            <option value="samsung">Xiaomi</option>
+            <option value="iphone">Apple</option>
+            <option value="xiaomi">Asus</option>
+            <option value="nokia">Nokia</option>
+            <option value="nokia">Motorola</option>
+            <option value="nokia">Samsung</option>
+          </select> <br /></td>
+      </tr>
+      <tr>
+        <td>Relato do problema:</td>
+        <td><textarea name="message" rows="6" cols="36">digite aqui...</textarea> <br /></td>
+      </tr>
+    </table>
+
+    <table>
+      <p>Inserir imagem:</p>
+      <input type="file" name="imagem-aparelho" id="foto" />
+    </table>
+
+    <table>
+      <br> <input type="submit" value="enviar"> <br />
+      <br>
+      <th scope="col">
+        <a href="menu.html">Voltar para o menu inicial</a><br>
+      </th>
+
+  </body>
+</form>
+
+
+
+</html>

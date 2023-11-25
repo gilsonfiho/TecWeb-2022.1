@@ -1,0 +1,51 @@
+@media screen and (max-width: 320px) {
+   .d1{
+     background-color: black;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .d1{
+    background-color: rgb(6, 235, 223);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .d1{
+    background-color: rgb(79, 243, 4);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .d1{
+    background-color: rgb(255, 238, 0);
+  }
+}
+
+@media screen and (min-width: 768) and (max-width: 800) {
+  .d1{
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 800) and (max-width: 1024px) {
+  .d1{
+    background-color: green
+  }
+}
+
+@media screen and (min-width: 1024) and (max-width: 1280) {
+  .d1{
+    background-color: rgb(160, 10, 10);
+  }
+}
+
+@media screen and (min-width: 1024) and (max-width: 1280) {
+  .d2{
+    background-color: rgb(160, 10, 10);
+  }
+}
+
+
+
+

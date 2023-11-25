@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Q4</title>
+    </head>
+    <body>
+      <input type = "text" id = "codigo">
+      <input type = "text" id = "notaA">
+      <input type = "text" id = "notaB">
+      <input type = "text" id = "notaC">
+      <p id="res">Resposta:</p>
+      <button type = "button" onclick="Media()">enviar</button>
+      <script>
+        function Media(){
+          var codigo = parseInt(document.getElementById("codigo").value);
+          var notaA = parseInt(document.getElementById("notaA").value);
+          var notaB = parseInt(document.getElementById("notaB").value);
+          var notaC = parseInt(document.getElementById("notaC").value);
+          var notaF = (((notaA*4) + (notaB*3) + (notaC *3))/10);
+          if(notaF >= 5)
+            document.getElementById("res").innerHTML = "Resposta: Aprovado";
+          if(notaf < 5)
+            document.getElementById("res").innerHTML = "Resposta: Reprovado";
+          }
+
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/layout.css" />
+    <title>Calculadora</title>
+    <script type="text/javascript">
+      function populaTela(valor) {
+        document.getElementById("display").value += valor;
+      }
+      function limpaTela(valor) {
+        document.getElementById("display").value = valor;
+      }
+      function calcula() {
+        try {
+          limpaTela(eval(document.getElementById("display").value))
+        } catch (e) {
+          limpaTela("Erro!");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form class="estrutura">
+      <div class="tela">
+        <input type="text" readonly size="16" id="display">
+      </div>
+      <div class="teclas">
+        <p>
+          <input type="button" class="botao numero" value="7" onclick='populaTela("7")'>
+          <input type="button" class="botao numero" value="8" onclick='populaTela("8")'>
+          <input type="button" class="botao numero" value="9" onclick='populaTela("9")'>
+          <input type="button" class="botao operacoes" value="/" onclick='populaTela("/")'>
+        </p>
+        <p>
+          <input type="button" class="botao numero" value="4" onclick='populaTela("4")'>
+          <input type="button" class="botao numero" value="5" onclick='populaTela("5")'>
+          <input type="button" class="botao numero" value="6" onclick='populaTela("6")'>
+          <input type="button" class="botao operacoes" value="*" onclick='populaTela("*")'>
+        </p>
+        <p>
+          <input type="button" class="botao numero" value="1" onclick='populaTela("1")'>
+          <input type="button" class="botao numero" value="2" onclick='populaTela("2")'>
+          <input type="button" class="botao numero" value="3" onclick='populaTela("3")'>
+          <input type="button" class="botao operacoes" value="-" onclick='populaTela("-")'>
+        </p>
+        <p>
+          <input type="button" class="botao numero" value="0" onclick='populaTela("0")'>
+          <input type="button" class="botao numero" value="=" onclick="calcula()">
+          <input type="button" class="botao operacoes" value="C" onclick='limpaTela("")'>
+          <input type="button" class="botao operacoes" value="+" onclick='populaTela("+")'>
+
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

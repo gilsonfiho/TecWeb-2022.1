@@ -1,0 +1,42 @@
+div{
+  display:inline;
+}
+
+.c1{
+  margin: 35px;
+  padding: 35px;
+  border: solid 25px black;
+}
+
+.c2{
+  margin: 35px;
+  padding: 35px;
+  border: solid 25px black;
+}
+
+.c3{
+  margin: 35px;
+  padding: 35px;
+  border: solid 25px black;
+}
+
+.c4{
+  display:block;
+  padding: 35px;
+  margin: 35px;
+  border: solid 25px black;
+}
+
+.c5{
+  display:block;
+  padding: 35px;
+  margin: 35px;
+  border: solid 25px black;
+}
+
+.c6{
+  display:block;
+  padding: 35px;
+  margin: 35px;
+  border: solid 25px black;
+}

@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <meta charset="utf-8;" />
+    <title> Revenda de celular usado</title>
+</head>
+
+<body>
+    <h1>Revenda de celular usado</h1>
+    <form action="" method="POST" ENCTYPE="multipart/form-data"><br>
+        <h2>Informe os dados sobre o aparelho:</h2>
+        <table>
+            <tr>
+                <td>Modelo:</td>
+                <td><select id="modelo" name="modelo">
+                        <option value="samsung">Xiaomi</option>
+                        <option value="iphone">Apple</option>
+                        <option value="xiaomi">Asus</option>
+                        <option value="nokia">Nokia</option>
+                        <option value="nokia">Motorola</option>
+                        <option value="nokia">Samsung</option>
+                    </select> <br /></td>
+            </tr>
+
+            <tr>
+                <td>Cor:</td>
+                <td><select id="cor" name="cor">
+                        <option value="cor1">Branco</option>
+                        <option value="cor2">Preto</option>
+                        <option value="cor3">Ouro</option>
+                        <option value="cor4">Dourado</option>
+                        <option value="cor5">Rosa</option>
+                        <option value="cor6">Azul</option>
+                        <option value="cor7">Vermelho</option>
+                        <option value="cor7">Prata</option>
+                    </select> <br /></td>
+            </tr>
+
+
+        </table>
+
+        <p>Especificação do aparelho:</p>
+        <textarea name="message" rows="4" cols="36">Digite sa especificações do aparelho...</textarea>
+
+        <p>Inserir nota fiscal:</p>
+        <input type="file" name="nota-aparelho" id="pdf" /><br>
+
+        <p>Inserir imagem do aparelho:</p>
+        <input type="file" name="imagem-aparelho" id="foto" /><br>
+
+        <p>Estado de conservação do aparelho:</p>
+        <table>
+            <th scope="col">
+                <input type="radio" id="novo" name="estado" value="Novo">
+                <label for="Novo">Novo</label><br>
+            </th>
+            <th scope="col">
+                <input type="radio" id="novo" name="estado" value="semiNovo">
+                <label for="semiNovo">Semi Novo</label><br>
+            </th>
+            <th scope="col">
+                <input type="radio" id="novo" name="estado" value="Velho">
+                <label for="Velho">Velho</label><br>
+            </th>
+            <th scope="col">
+                <input type="radio" id="novo" name="estado" value="Destruído">
+                <label for="Danificado">Danificado</label><br>
+            </th>
+        </table>
+
+        <p>Acessórios inclusos:</p>
+        <textarea name="message" rows="6" cols="36">digite os acessórios do aparelho...</textarea>
+        <br><br>
+        <tr>
+            <td>Valor:</td>
+            <td><input type="text" name="valor" size="50"> <br /></td>
+        </tr>
+
+        <br><input type="submit" value="Eviar pedido de revenda"></br>
+        <br>
+        <th scope="col">
+            <a href="menu.html">Voltar pro menu</a><br>
+        </th>
+
+    </form>
+</body>
+
+</html>
